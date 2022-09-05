@@ -74,4 +74,13 @@
     transform-origin: top;
   }
 }
+
+.container.custon_gx {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=base.css.map */

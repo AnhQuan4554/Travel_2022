@@ -1240,19 +1240,11 @@
 }
 
 .foot {
-  padding: 0 20px;
+  padding: 0 150px;
   background-color: var(--color-black-popular);
   min-height: 220px;
   margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-bottom: calc(220px / 2);
 }
 
 .foot span {
@@ -1260,15 +1252,14 @@
 }
 
 .foot .phoneSuport {
-  margin-bottom: calc(220px / 2);
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
 
 .foot .phoneSuport .phoneSuport-tiltle {
   color: #fff;
-  font-size: 25px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 4px;
 }
 
@@ -1284,13 +1275,13 @@
 }
 
 .foot .connectWith {
-  margin-bottom: calc(220px / 2);
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
 
 .foot .connectWith .connectWith-tiltle {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 500;
   color: #fff;
   margin-bottom: 4px;
 }
@@ -1327,13 +1318,13 @@
 }
 
 .foot .newLetter {
-  margin-bottom: calc(220px / 2);
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
 
 .foot .newLetter .newLetter-title {
-  font-size: 26px;
+  font-size: 20px;
+  font-weight: 500;
   color: #fff;
   margin-bottom: 4px;
 }
@@ -1341,13 +1332,17 @@
 .foot .newLetter .newLetter--1 {
   color: #a7a5a5;
   font-size: 12px;
+  margin-bottom: 16px;
 }
 
 .foot .newLetter .newLetter-submit {
-  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .foot .newLetter .newLetter-submit input {
+  display: bl;
   padding: 8px 20px 8px 20px;
   outline: none;
   background: #474e58;
